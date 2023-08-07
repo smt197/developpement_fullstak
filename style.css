@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat&family=Pacifico&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Montserrat&family=Pacifico&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;  /*pour aligner les elements*/
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center; /* pour aligner le logo et la navbar*/
+    border-bottom: 2px solid #6f6f6f;
+
+}
+
+.navbar a {
+    color: black;
+}
+.navbar .logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Fasthand', sans-serif;
+}
+.navbar .nav-liens ul{
+    display: flex;
+
+
+}
+.navbar .nav-liens ul li{
+    margin: 0 20px; /* pour spacer les menus*/
+    justify-content: center;
+
+}
+.navbar .nav-liens ul li.actif a{
+   color: orange;
+   font-weight: 600px; 
+}
+.srch{
+  border: transparent;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border-radius: 20px;
+  margin-left: 90px;
+
+}
+.btn{
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  margin-right: 300px;
+  border: transparent;
+
+}
+.liens .nav-liens ul{
+    display: flex;
+}
+.liens .nav-liens ul li{
+    margin: 0 20px; /* pour spacer les menus*/
+    justify-content: center;
+
+}
+.liens{
+    position: absolute;
+    padding: 20px;
+    display: flex;  /*pour aligner les elements*/
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 90.5px;
+    margin-left: 400px;
+}
+.liens .nav-liens ul li a{
+  color: black;
+}
+.banner{
+    margin-top: 2px;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    padding: 0.1px;  
+    justify-content: space-around;
+}
+.banner h2{
+    background-image: url(image/banner.png);
+    background-position: center;
+    background-size: absolute;
+    height: 200px;
+    width: 1500px;
+    margin-top: 145px;
+
+
+}
+h2{
+  color: white;
+  text-align: center;
+
+}
+.submit{
+  background-color: red;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
